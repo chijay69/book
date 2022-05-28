@@ -1,0 +1,8 @@
+const Button = ({color, text}) => {
+    const btnStyles = {
+	backgroundColor:color
+	
+    return <button style={btnStyles} className='btn'>{text}</button>
+}
+}
+export default Button

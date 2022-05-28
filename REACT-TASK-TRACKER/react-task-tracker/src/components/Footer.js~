@@ -1,0 +1,11 @@
+import { Link } from 'react-router-dom'
+const Footer = () => {
+    return (
+	    <footer>
+	    <p style={{ margin:'auto', padding:'5px' }}>Copyrights &copy; 2022</p>
+	    <Link to="about" style={{ margin:'0 auto', padding:'5px' }}>About</Link>
+	    </footer>
+    )
+}
+
+export default Footer

@@ -1,0 +1,25 @@
+{
+    "tasks": [
+	{
+	    "id":1,
+	    "text":"Doctors Appointment",
+	    "date":"12:2:2022",
+	    "time":"09:29",
+	    "reminder":true,
+	},
+	{
+	    "id":1,
+	    "text":"Dentists Appointment",
+	    "date":"12:2:2022",
+	    "time":"13:50",
+	    "reminder":true,
+	},
+	{
+	    "id":1,
+	    "text":"Dinner Date",
+	    "date":"12:2:2022",
+	    "time":"20:59",
+	    "reminder":false,
+	}
+    ]
+}

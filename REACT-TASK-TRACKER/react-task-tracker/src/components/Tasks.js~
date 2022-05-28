@@ -1,0 +1,16 @@
+import Task from './Task'
+const space = '.'
+const spaces = '\t\t'
+
+
+const Tasks = ({tasks})=> {
+
+    return (
+	    <>
+	    {tasks.map((task) => (
+		    <Task key={task.id}  task={task}/>
+	    ))}
+	    </>
+    )
+}
+export default Tasks
