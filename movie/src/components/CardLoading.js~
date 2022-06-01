@@ -1,0 +1,12 @@
+import React from 'react'
+import Card from './Card'
+
+
+function CardLoading (Component) {
+    return function CardLoadingComponent ({isLoading, ...props}) {
+	if (!isLoading) return <Component {...props}/>;
+	return (
+	    <p style={{ fontSize:'15px' }}>Data Loading...</p>
+	);
+    };
+}

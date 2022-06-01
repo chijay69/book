@@ -1,0 +1,14 @@
+import React from 'react';
+import List from './containers/List'
+
+
+
+function App() {
+    return (
+	    <React.Fragment>
+	    <List />
+	    </React.Fragment>
+  );
+}
+
+export default App;
